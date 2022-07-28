@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ui</title>
+    <style>* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      font-family: sans-serif;
+    }
+    .main {
+      display: flex;
+      position: relative;
+    }
+    .vl {
+        border-left:4px solid black;
+        height: 350px;
+        margin-left:0.5rem;
+      }
+      .ready {
+        border: 2px solid #32d367;
+        border-left: none;
+        border-radius: 0px 200px 21px 0px;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 65%;
+        margin-top: 3rem;
+        padding:4rem;
+        flex-direction: column;
+      }
+      .text {
+        color: #5553b7;
+      }
+      button {
+        height: 36px;
+        border-radius: 25px;
+        width: 120px;
+        margin-top:1rem;
+      }
+      .free {
+        background-color: #00ff00;
+        border:none;
+        color: rgb(244, 244, 244);
+      }
+      .demo {
+        background-color: white;
+        color: #5553b7;
+        border: 2px solid #5553b7;
+      }
+      .Second {
+        display: flex;
+        background-color: rgba(166, 166, 238, 0.4);
+        width: 55%;
+        height: 150px;
+        margin-top: 12rem;
+        margin-left: 35rem;
+        right:0;
+        transform: translateY(-50%);
+        border-radius: 200px 0px 0px 0px;
+        position: absolute;
+        backdrop-filter: blur(3px);
+      }
+      </style>
+</head>
+<body>
+    <!--Contents of the webpage-->
+<div class="main">
+    <div class="vl"></div>
+    <div class="ready">
+      <h1>Ready to Automate your 
+        <br>
+        <span class="text">E-Commerce store?</span>
+      </h1>
+      <button type="button" class="free">Try for free</button>
+      <button type="button" class="demo">Book a demo</button>
+    </div>
+    <div class="Second"></div>
+  </div>
+</body>
+</html>
